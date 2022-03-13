@@ -1,0 +1,41 @@
+body {
+    background-color: #BA55D3;
+    text-align: center;
+    font-family: "MS Gothic", monospace;
+  }
+  
+  h1 {
+    font-size: 60px;
+    color: #ffffff;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .conversorDiv {
+    border: 6px #ffffff solid;
+    border-radius: 11px;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+  }
+  
+  select, button, input {
+    font-size: 18px;
+    background-color: #BA55D3;
+    border: 3px #ffffff solid;
+    border-radius: 7px;
+    color: #ffffff;
+    margin-top: 7px;
+    font-family: "MS Gothic", monospace;
+  }
+  
+  button {
+    margin-top: 11px;
+  }
+  
+  .mostrarResultado {
+    font-size: 23px;
+  }
