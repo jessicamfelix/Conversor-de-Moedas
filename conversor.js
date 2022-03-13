@@ -2,16 +2,16 @@
  const calcularConvercao = {
      valor: 0,
      realToDolar: function() {
-         return [this.valor * 5, "$"];
+         return [this.valor / 5, "$"];
      },
      dolarToReal: function() {
-         return [this.valor / 5, "R$"];
+         return [this.valor * 5, "R$"];
      },
      realToEuro: function() {
-         return [this.valor * 6, "€"];
+         return [this.valor / 6, "€"];
      },
      euroToReal: function() {
-         return [this.valor / 6, "R$"];
+         return [this.valor * 6, "R$"];
      },
      realToBitcoin: function() {
          return [this.valor / 198000, "₿"];
@@ -20,22 +20,22 @@
          return [this.valor * 198000, "R$"];
      },
      dolarToEuro: function() {
-         return [this.valor * 1.1, "€"];
+         return [this.valor / 1.1, "€"];
      },
      euroToDolar: function() {
-         return [this.valor / 1.1, "$"];
+         return [this.valor * 1.1, "$"];
      },
      dolarToBitcoin: function() {
-         return [this.valor * 39000, "₿"];
+         return [this.valor / 39000, "₿"];
      },
      bitcoinToDolar: function() {
-         return [this.valor / 39000, "$"];
+         return [this.valor * 39000, "$"];
      },
      euroToBitcoin: function() {
-         return [this.valor * 35800, "₿"];
+         return [this.valor / 35800, "₿"];
      },
      bitcoinToEuro: function() {
-         retun[this.valor / 35800, "€"]
+         retun[this.valor * 35800, "€"]
      }
  };
 
